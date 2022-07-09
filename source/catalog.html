@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница поиска попутчиков</title>
+</head>
+<body class="page-body inner-body">
+    <header class="page-header">
+        <nav class="main-nav">
+          <a href="index.html" class="main-nav__logo">123123123</a>
+          <ul class="first-list">
+            <li class="first-list__item">
+              <a href="" class="fist-list__link">О сервисе</a>
+            </li>
+            <li class="first-list__item">
+              <a href="" class="fist-list__link">Направления</a>
+            </li>
+            <li class="first-list__item">
+              <a href="" class="fist-list__link">Попутчики</a>
+            </li>
+          </ul>
+          <ul class="second-list">
+            <li class="second-list__item">
+              <button type="button" class="button second-list__button">Авторизация</button>
+            </li>
+            <li class="second-list__item">
+              <a href="tel:+89278523075" class="second-list__link">8 927 852 30 75</a>
+            </li>
+            <li class="second-list__item">
+              <a href="mailto:vip.shashkarov.@yandex.ru" class="second-list__link">vip.shashkarov.@yandex.ru</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="third-list">
+            <li class="second-list__item">
+              <button type="button" class="button third-list__button"><span class="visually-hidden">Авторизация</span></button>
+            </li>
+            <li class="third-list__item">
+              <a href="tel:+89278523075" class="third-list__link"><span class="visually-hidden">8 927 852 30 75</span></a>
+            </li>
+            <li class="third-list__item">
+              <a href="mailto:vip.shashkarov.@yandex.ru" class="third-list__link"><span class="visually-hidden">vip.shashkarov.@yandex.ru</span></a>
+            </li>
+          </ul>
+    </header>
+    <main class="page-main">
+        <section class="filter-country">
+            <tittle class="filter-country__tittle tittle">Фильтрация по странам:</tittle>
+        </section>
+        <section class="filter-companion">
+            <tittle class="filter-companion__tittle tittle">Подберите идеального попутчика</tittle>
+            <form action="#" method="get" class="form">
+              <fieldset class="form__hobby">
+                <p class="form__tittle">Хобби</p>
+                <ul class="form__list">
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="hobby" value="gym" checked>
+                      <span class="form__text">Спортзал</span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="hobby" value="smoke">
+                      <span class="form__text">Кальян</span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="hobby" value="soft">
+                      <span class="form__text">Диван</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+
+              <fieldset class="form__music">
+                <p class="form__tittle">Музыка</p>
+                <ul class="form__list">
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="music" value="rock" checked>
+                      <span class="form__text">Тяжелый рок</span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="music" value="rap">
+                      <span class="form__text">Русский рэп</span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="music" value="eurodance">
+                      <span class="form__text">Евроденс</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+
+              <fieldset class="form__food">
+                <p class="form__tittle">Еда</p>
+                <ul class="form__list">
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="food" value="meeteater" checked>
+                      <span class="form__text">Мясоед</span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="food" value="healty-food">
+                      <span class="form__text">Сидит на ПП</span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="food" value="vegan">
+                      <span class="form__text">Веган-сыроед</span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+
+              <fieldset class="form__transport">
+                <p class="form__tittle">Транспорт</p>
+                <ul class="form__list">
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="transport" value="airline">
+                      <span class="form__text visually-hidden">Самолет</span>
+                      <span class="form__mark"></span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="transport" value="car">
+                      <span class="form__text visually-hidden">Автомобиль</span>
+                      <span class="form__mark"></span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="transport" value="bike">
+                      <span class="form__text visually-hidden">Велосипед</span>
+                      <span class="form__mark"></span>
+                    </label>
+                  </li>
+                  <li class="form__item">
+                    <label>
+                      <input type="checkbox" class="form__input" name="transport" value="onfoot">
+                      <span class="form__text visually-hidden">Пешком</span>
+                      <span class="form__mark"></span>
+                    </label>
+                  </li>
+                </ul>
+              </fieldset>
+
+              <fieldset class="form__level">
+                <p class="form__tittle">Левел</p>
+              </fieldset>
+                <input type="submit" class="form__submit button" value="Показать">
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
